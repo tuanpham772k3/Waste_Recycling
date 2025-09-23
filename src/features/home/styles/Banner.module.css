@@ -1,0 +1,142 @@
+.banner {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../../../assets/images/union.png") no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 0 0 120px 120px;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    background: url("../../../assets/images/bannerBlur.png") no-repeat center;
+    background-size: 100% 90%;
+    z-index: -1;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+/* ------Content---------- */
+.content {
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.title {
+    color: var(--color-primary);
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-left: 24px;
+}
+
+.description {
+    color: var(--text-secondary);
+    font-family: "Segoe UI";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.btnSearch {
+    width: 218px;
+    height: 56px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--color-primary);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    color: var(--text-light);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+/* --------End-Content----------- */
+
+/* --------Visuals------------- */
+.visuals {
+    position: relative;
+    max-width: 40%;
+    max-height: 800px;
+    height: 100%;
+}
+
+/* -----Earth--------- */
+.earth {
+    width: 100%;
+    position: relative;
+}
+
+.earth::after {
+    content: url("../../../assets/images/earthTexture.png");
+    position: absolute;
+    top: 28%;
+    left: -5%;
+    z-index: -1;
+}
+
+.garbage {
+    position: absolute;
+}
+
+/* -----garbage1----- */
+.garbage1 {
+    background: url("../../../assets/images/garbageTexture1.png") no-repeat center/contain;
+    background-position: 7px 22px;
+    bottom: 28%;
+    right: -14%;
+}
+
+/* -----garbage2------ */
+.garbage2 {
+    background: url("../../../assets/images/garbageTexture2.png") no-repeat center/contain;
+    background-position: 27px 3px;
+    bottom: 28%;
+    left: -61px;
+}
+
+/* ------garbage3------- */
+.garbage3 {
+    background: url("../../../assets/images/garbageTexture3.png") no-repeat center/contain;
+    background-position: 8px -2px;
+    top: 23%;
+    left: -17%;
+}
+
+/* ------garbage4------- */
+.garbage4 {
+    top: 35%;
+    left: 0%;
+}

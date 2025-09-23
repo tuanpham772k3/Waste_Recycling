@@ -1,11 +1,133 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: #f5f5f5;
+/* CSS Variables */
+:root {
+    /* 🌿 Primary brand colors */
+    --color-primary-dark: #023019; /* Xanh lá đậm – Dark green forest */
+    --color-primary: #006837; /* Xanh lá chủ đạo – Green forest */
+    --color-primary-light: #8cff8c; /* Xanh lá sáng – Light green */
+    --color-primary-bg: #d3ffd3; /* Nền xanh nhạt – Pastel green background */
+
+    /* ⚫ Neutral (xám / đen) */
+    --color-gray: #575757; /* Xám trung tính – Neutral gray */
+    --color-gray-dark: #4f4f4f; /* Xám đậm – Dark gray */
+    --color-gray-light: #a9a9a9; /* Xám nhạt */
+    --color-black: #1f1f1f; /* Đen xám */
+
+    /* 🌟 Accent (nhấn mạnh, CTA) */
+    --color-accent: #e6c328; /* Vàng sáng – Golden yellow */
+    --color-accent-dark: #88741a; /* Vàng nâu – Dark golden */
+
+    /* ✍️ Text */
+    --text-primary: var(--color-black); /* Văn bản chính */
+    --text-secondary: var(--color-gray-dark); /* Văn bản phụ */
+    --text-light: #ffffff; /* Văn bản sáng */
+
+    /* 🎨 Background */
+    --bg-light: #ffffff; /* Nền sáng */
+    --bg-dark: var(--color-black); /* Nền tối */
 }
 
-h1,
-h2 {
-    color: #2c7a7b;
+/* Reset/Normalize CSS */
+html {
+    line-height: 1.5;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+    font: inherit;
+    border: none;
+}
+
+input {
+    line-height: normal;
+}
+
+label,
+button {
+    cursor: pointer;
+    user-select: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+        font-size: 16px;
+    }
+}
+
+/* Global Styles */
+body {
+    font-family: "MuseoModerno", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--bg-light);
+    color: var(--text-primary);
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "MuseoModerno", sans-serif;
+    color: var(--color-primary);
+} */

@@ -1,15 +1,7 @@
-import RewardList from '../features/rewards/components/RewardList'
-import WasteList from '../features/waste/components/WasteList'
+import HomePage from "../features/home/HomePage";
 
 function App() {
-
-  return (
-    <div style={{ padding: "20px" }}>
-      <h1>♻️ DỰ ÁN CÔNG NGHỆ THU GOM – TÁI CHẾ RÁC YÊU</h1>
-      <WasteList />
-      <RewardList />
-    </div>
-  )
+    return <HomePage />;
 }
 
-export default App
+export default App;
