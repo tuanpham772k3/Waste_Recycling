@@ -1,140 +1,140 @@
 /* --------SECTION 1-------------- */
 .content {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 /* ---CONTAINER-- */
 .container {
-    max-width: 1128px;
-    margin: 107px auto 0;
-    width: 100%;
+  max-width: 1128px;
+  margin: 107px auto 0;
+  width: 100%;
 }
 
 /* ---Title-- */
 .title {
-    max-width: 870px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    font-style: normal;
-    font-weight: 600;
+  max-width: 870px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 /* FootPrint img */
 .title::before {
-    content: "";
-    background: url("../../../assets/images/footPrints.png") no-repeat top right;
-    position: absolute;
-    inset: -31% 0 0 0;
-    z-index: -2;
+  content: "";
+  background: url("../../../assets/images/footPrints.png") no-repeat top right;
+  position: absolute;
+  inset: -31% 0 0 0;
+  z-index: -2;
 }
 
 .title h2 {
-    color: var(--color-primary);
-    font-size: 28px;
+  color: var(--color-primary);
+  font-size: 28px;
 }
 
 .title p {
-    color: var(--color-gray);
-    font-family: "Segoe UI";
-    font-size: 24px;
-    line-height: 1.2;
+  color: var(--color-gray);
+  font-family: "Segoe UI";
+  font-size: 24px;
+  line-height: 1.2;
 }
 /*--- END Title --*/
 
 /* ---WRAPPER MISSION-- */
 .missionWrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 58px;
-    height: 589px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+  height: 589px;
 }
 
 /* List */
 .missionList {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
 }
 
 /* Item */
 .missionItem {
-    position: relative;
-    min-height: 126px;
-    border-radius: 48px;
-    background: #ecf2ef;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-    padding: 16px 125px 23px 24px;
+  position: relative;
+  min-height: 126px;
+  border-radius: 48px;
+  background: #ecf2ef;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px 125px 23px 24px;
 }
 
 /* Item content */
 .missionItemContent {
-    max-width: 499px;
-    width: 100%;
+  max-width: 499px;
+  width: 100%;
 }
 
 .missionItem h3 {
-    color: var(--color-primary);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
+  color: var(--color-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .missionItem p {
-    color: var(--color-gray);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: var(--color-gray);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 /* number */
 .missionNumber {
-    position: absolute;
-    top: -6%;
-    right: 4%;
-    color: #fbae17;
-    opacity: 0.2;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 500;
-    transform: rotate(24.935deg);
+  position: absolute;
+  top: -6%;
+  right: 4%;
+  color: #fbae17;
+  opacity: 0.2;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  transform: rotate(24.935deg);
 }
 /* --end missionWrapper-- */
 
 /*---- moving photo---- */
 .videoWrapper {
-    width: 360px;
-    height: 589px;
-    border-radius: 70px;
-    box-shadow: 0 0 45.7px 5px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
+  width: 360px;
+  height: 589px;
+  border-radius: 70px;
+  box-shadow: 0 0 45.7px 5px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
 }
 
 .video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 46% center;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 46% center;
+  display: block;
 }
 /* <----------END SECTION 1------------> */
 
 /* <----------SECTION 2-------------> */
 .needContent {
-    width: 100%;
+  width: 100%;
 }
 
 /* container */
 .needContainer {
-    max-width: 1128px;
-    width: 100%;
-    margin: 100px auto;
+  max-width: 1128px;
+  width: 100%;
+  margin: 100px auto;
 }
 
 /* title wrapper */
@@ -142,153 +142,153 @@
 }
 
 .needTitle h2 {
-    color: var(--color-primary);
-    text-align: center;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .needTitle p {
-    color: var(--color-gray);
-    text-align: center;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
+  color: var(--color-gray);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
 }
 /* end title wrapper */
 
 /* process wrapper */
 .needProcessList {
-    margin-top: 130px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 /* items */
 .needProcessItem {
-    background-color: white;
-    width: 224px;
-    height: 338px;
-    padding: 21px 16px;
-    border-radius: 24px;
-    background: var(--bg-light);
-    box-shadow: 12px 12px 0 0 var(--color-primary), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: white;
+  width: 224px;
+  height: 338px;
+  padding: 21px 16px;
+  border-radius: 24px;
+  background: var(--bg-light);
+  box-shadow: 12px 12px 0 0 var(--color-primary), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* Item 1 */
 .needProcessItem:nth-child(1) {
-    position: relative;
+  position: relative;
 }
 
 .needProcessItem:nth-child(1)::before {
-    content: "";
-    position: absolute;
-    width: 268px;
-    height: 248px;
-    border-radius: 100%;
-    opacity: 0.28;
-    background: var(--color-primary);
-    top: -23%;
-    left: 23%;
-    transform: translateX(-50%);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 268px;
+  height: 248px;
+  border-radius: 100%;
+  opacity: 0.28;
+  background: var(--color-primary);
+  top: -23%;
+  left: 23%;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
 .needProcessItem:nth-child(1)::after {
-    content: url("../../../assets/icon/arrow1.svg");
-    position: absolute;
-    top: -13%;
-    right: -55%;
+  content: url("../../../assets/icon/arrow1.svg");
+  position: absolute;
+  top: -13%;
+  right: -55%;
 }
 
 /* item 2 */
 .needProcessItem:nth-child(2) {
-    margin-top: 100px;
-    position: relative;
+  margin-top: 100px;
+  position: relative;
 }
 
 .needProcessItem:nth-child(2)::before {
-    content: "";
-    position: absolute;
-    width: 131px;
-    height: 128px;
-    border-radius: 100%;
-    opacity: 0.28;
-    background: var(--color-primary);
-    bottom: -20%;
-    left: 14%;
-    transform: translateX(-50%);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 131px;
+  height: 128px;
+  border-radius: 100%;
+  opacity: 0.28;
+  background: var(--color-primary);
+  bottom: -20%;
+  left: 14%;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
 .needProcessItem:nth-child(2)::after {
-    content: url("../../../assets/icon/arrow2.svg");
-    position: absolute;
-    bottom: -20%;
-    right: -60%;
+  content: url("../../../assets/icon/arrow2.svg");
+  position: absolute;
+  bottom: -20%;
+  right: -60%;
 }
 
 /* item 3 */
 .needProcessItem:nth-child(3) {
-    margin-top: -59px;
-    position: relative;
+  margin-top: -59px;
+  position: relative;
 }
 
 .needProcessItem:nth-child(3)::after {
-    content: url("../../../assets/icon/arrow3.svg");
-    position: absolute;
-    top: 25%;
-    right: -70%;
+  content: url("../../../assets/icon/arrow3.svg");
+  position: absolute;
+  top: 25%;
+  right: -70%;
 }
 
 /* item 4 */
 .needProcessItem:nth-child(4) {
-    margin-top: 146px;
-    position: relative;
+  margin-top: 146px;
+  position: relative;
 }
 
 .needProcessItem:nth-child(4)::before {
-    content: "";
-    position: absolute;
-    width: 183px;
-    height: 181px;
-    border-radius: 100%;
-    opacity: 0.28;
-    background: var(--color-primary);
-    bottom: -20%;
-    right: -80%;
-    transform: translateX(-50%);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 183px;
+  height: 181px;
+  border-radius: 100%;
+  opacity: 0.28;
+  background: var(--color-primary);
+  bottom: -20%;
+  right: -80%;
+  transform: translateX(-50%);
+  z-index: -1;
 }
 
 /* process number */
 .needProcessNumber {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    background: var(--color-primary);
-    color: var(--text-light);
-    font-size: 10.286px;
-    font-weight: 600;
-    margin-bottom: 7px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--color-primary);
+  color: var(--text-light);
+  font-size: 10.286px;
+  font-weight: 600;
+  margin-bottom: 7px;
 }
 
 .needProcessItem h3 {
-    color: var(--color-primary);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.2;
-    margin-bottom: 20px;
+  color: var(--color-primary);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .needProcessItem img {
-    object-fit: cover;
+  object-fit: cover;
 }
 /* --------END_SECTION 2---------- */
