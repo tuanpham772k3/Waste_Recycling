@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@": resolve("src"), // alias @ trỏ tới thư mục src
+      "@": resolve(__dirname, "src"), // alias @ trỏ tới thư mục src
     },
   },
 });
